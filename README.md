@@ -19,3 +19,6 @@ git add requirement.txt (Will add requirements.txt file to the github repo)
 git status
 git add .   (Add all the files to repo)
 
+git commit -m "Commit message" (Commit message)
+
+git push origin main
