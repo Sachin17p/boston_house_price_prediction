@@ -22,3 +22,16 @@ git add .   (Add all the files to repo)
 git commit -m "Commit message" (Commit message)
 
 git push origin main
+
+
+**After creating Dockerfile and Procfile follow these steps:** 
+- Create .github/workflows directory
+- Create a file named main.yaml in the .github/workflows
+- Go to github and got to the Secrets -> Actions tab under Security in the repository of interest
+- Create a HEROKU_API_KEY, get the key from HEROKU account
+- Create HEROKU_EMAIL key ans HEROKU_APP_NAME key (same name as given on heroku)
+- You are set with github actions
+- Commit and push everything on github repo
+- Go to commits on github and build and run
+- Go to heroku and then open and run the app
+- That's it! Your app is good to go!
